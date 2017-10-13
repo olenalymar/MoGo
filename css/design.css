@@ -1,0 +1,8 @@
+.design {
+	background: url("../images/design.jpg") no-repeat top center fixed;
+}
+.container--design {
+	min-height: 930px;
+	padding-top: 110px;
+	padding-bottom: 120px;
+}

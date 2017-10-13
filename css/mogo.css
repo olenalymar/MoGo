@@ -1,0 +1,310 @@
+.mogo {
+	background-color: #f8f8f8;
+}
+
+.container--mogo {
+	padding-top: 75px;
+	padding-bottom: 70px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.mogo-follow {
+	
+}
+
+.mogo-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: #ccc;
+}
+
+.text-mogo {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color: #9f9f9f;
+	padding: 30px 40px 40px 0;
+}
+
+.blogs,
+.instagram-photos {
+	padding-top: 15px;
+}
+
+.mogo-follow {
+	flex-basis: 470px;
+}
+
+.blogs {
+	flex-basis: 420px;
+}
+
+.blog-item:hover {
+	opacity: 0.6;
+}
+
+.instagram-photos {
+	flex-basis: 300px;
+}
+
+.blogs-heading,
+.instagram-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.blog-image {
+	float: left;
+	padding: 20px 20px 20px 0;
+}
+
+.date,
+.view-more {
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #999;
+}
+
+.post,
+.date {
+	display: block;
+	padding-left: 140px;
+}
+
+.post {
+	padding: 30px 50px 10px 140px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.photos {
+	padding: 20px 0 15px;
+}
+
+.view-more {
+ 	color: #333;
+}
+
+.photo-items:hover {
+	opacity: .6;
+}
+
+.followers {
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	color: #333;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	width: 85%;
+}
+
+.followers-number {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.follow-us {
+	padding-top: 17px;
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #999;
+}
+
+.icons {
+	display: inline-block;
+	padding: 0 5px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+.icon-link {
+	display: block;
+	width: 30px;
+	height: 24px;
+}
+
+.icon-link:hover {
+	opacity: .6;
+}
+
+.icon-link span {
+	font-size: 0;
+}
+
+.fb {
+	background: url("../images/icons.png") no-repeat 0% 0%;
+}
+
+.tw {
+	background: url("../images/icons.png") no-repeat 14.28% 0%;
+}
+
+.inst {
+	background: url("../images/icons.png") no-repeat 28.57% 0%;
+}
+
+.pint {
+	background: url("../images/icons.png") no-repeat 42.85% 0%;
+}
+
+.google {
+	background: url("../images/icons.png") no-repeat 57.13% 0%;
+}
+
+.youtube {
+	background: url("../images/icons.png") no-repeat 71.41% 0%;
+}
+
+.dr {
+	background: url("../images/icons.png") no-repeat 85.7% 0%;
+}
+
+.tm {
+	background: url("../images/icons.png") no-repeat 100% 0%;
+}
+
+
+.subscribe {
+	padding: 35px 0;
+	display: flex;
+}
+
+input[type="email"] {
+	width: 230px;
+	height: 40px;
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+	color: #d2d2d2;
+	font-style: italic;
+}
+
+input[type="email"]:focus {
+	outline: none;
+	border: 1px solid #95e1d3;
+}
+
+.subscribe-button {
+	width: 150px;
+	height: 40px;
+	background-color: #95e1d3;
+	border: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	color: #fff;
+}
+
+.subscribe-button:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #95e1d3;
+	box-shadow: 0 0 11px #95e1d3 inset;
+
+}
+
+.subscribe-button:focus {
+	outline: none;
+	box-shadow: 0 0 5px #95e1d3;
+}
+
+.blog-posts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog-post-item {
+	padding: 5px;
+}
+
+
+.blog-post-image,
+.blog-post-heading,
+.blog-post-intro {
+	display: block;
+}
+
+.blog-post-image {
+	position: relative;
+}
+
+.blog-post-date {
+	display: block;
+	padding-top: 14px;
+	width: 60px;
+	height: 70px;
+	background-color: #95e1d3;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	margin-top: -80px;
+	margin-left: -10px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.post-date {
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.blog-post-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 20px 0;
+	color: #333;
+}
+
+.blog-post-intro {
+	width: 380px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
+}
+
+.views-comments {
+	display: block;
+}
+
+.views,
+.comments {
+	display: inline-block;
+	padding: 20px 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #999
+}
+
+.views {
+	margin-right: 15px;
+}
+
+.views::before {
+	content: url("../images/view.png");
+	margin-right: 5px;
+}
+
+.comments::before {
+	content: url("../images/speechbubble.png");
+	margin-right: 5px;
+}

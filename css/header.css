@@ -1,0 +1,192 @@
+.bg {
+	background: #777 url("../images/eagle.jpg") no-repeat top center;
+}
+
+.header {
+	padding-top: 29px;
+	background-image: linear-gradient(360deg, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+	min-height: 1000px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	transition: color .5s ease-in-out;
+}
+
+.logo:hover {
+	color: #f2c9ac;
+}
+
+.navigation {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.navigation li {
+	padding: 15px 25px;
+}
+
+.navigation li:last-child {
+	padding-right: 0;
+}
+
+.navigation a {
+	display: block;
+	height: 30px;
+}
+
+.active,
+.navigation a:hover {
+	color: #fce38a;
+	border-bottom: 3px solid #fce38a;
+}
+
+.shoppingcart {
+	background: url("../images/shoppingcart.png") no-repeat;
+	height: 15px;
+	width: 18px;
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
+	
+}
+
+.shoppingcart:hover,
+.search:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(255, 255, 100, 0.8));
+	transition: drop-shadow 0.5s linear;
+	
+}
+
+.search {
+	background: url("../images/search.png") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+.navigation .search:hover,
+.navigation .shoppingcart:hover {
+	border-bottom: none;
+}
+
+.shoppingcart span,
+.search span {
+	font-size: 0;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.heading {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.overture {
+	display: block;
+	font-family: "Kaushan Script", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.welcome {
+	font-size: 150px;
+	padding-top: 120px;
+	line-height: 1;
+}
+
+.welcome .overture {
+	font-size: 72px;
+	text-transform: capitalize;
+	margin-bottom: 32px;
+}
+
+.welcome::after {
+	display: block;
+	content: url("../images/whiteline.gif");
+	height: 70px;
+	margin-top: -70px;
+}
+
+.button {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	display: block;
+	border: 3px solid #fff;
+	padding: 12px 30px;
+	text-align: center;
+	margin: 110px auto 0;
+	width: 170px;
+}
+
+.button:hover {
+	color: #f38181;
+	border: 3px solid #f38181;
+	opacity: .7;
+}
+
+.slider {
+	min-height: 230px;
+	padding-top: 100px;
+}
+
+.slider-list {
+	display: flex;
+	justify-content: space-between;	
+	text-transform: uppercase;
+	min-height: 60px;
+}
+
+.slider-inactive {
+	opacity: .6;
+}
+
+.progress {
+	width: 280px;
+	height: 3px;
+	background-color: #fff;
+}
+
+.value {
+	height: 100%;
+  	width: 100%;
+  	background-color: #f38181;
+  	transform: scaleX(.25);
+  	transform-origin: 0 0;
+}
+
+.slider-title {
+	display: block;
+}
+
+.slider-list li {
+	counter-increment: myCounter;
+}
+
+.slider-list span {
+	margin-top: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.slider-list span::before {
+	content: counter(myCounter, decimal-leading-zero);
+	display: inline;
+	padding: 20px 15px 20px 0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+}

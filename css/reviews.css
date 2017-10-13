@@ -1,0 +1,61 @@
+.reviews {
+	background: url("../images/bgreviews.jpg") no-repeat top center fixed;
+	min-height: 830px;
+}
+
+.container--reviews {
+	padding-top: 110px;
+	padding-bottom: 130px;
+}
+
+.clients {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.client-item {
+	display: inline-block;
+	width: 50%;
+	padding: 3px 0 33px; 
+}
+
+.client-image {
+	float: left;
+	padding: 30px; 
+}
+
+.client-name,
+.client-position,
+.client-review {
+	display: block;
+}
+
+.client-name {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333;
+	padding: 35px 5px 5px 170px;
+}
+
+.client-position {
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	line-height: 24px;
+	color: #333;
+	padding: 5px;
+}
+
+.client-position::after {
+	display: block;
+	content: url("../images/redline.gif");
+}
+
+.client-review {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color: #9f9f9f;
+	padding-left: 170px;
+}

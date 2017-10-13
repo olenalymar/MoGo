@@ -1,0 +1,52 @@
+.facts {
+	background-color: #95e1d3;
+	min-height: 270px;
+	color: #fff;
+}
+
+.facts .container {
+	height: 100%;
+}
+
+.facts ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-grow: 1;
+	min-height: 270px;
+}
+
+.facts li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 240px;
+	border-left: 1px solid #b5eae0;
+
+}
+
+.facts li:last-child {
+	border-right: 1px solid #b5eae0;
+}
+
+.facts span {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+}
+
+.container li div {
+	margin: 0 auto;
+}
+
+.numbers {
+	display: block;
+	font-size: 72px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.text {
+	font-size: 14px;
+}

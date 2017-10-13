@@ -1,0 +1,49 @@
+.container--services {
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.heading--services {
+	font-size: 30px;
+}
+
+.firstline {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.firstline,
+.secondline {
+	padding: 50px 0;
+}
+
+.services-list {
+	display: flex;
+	flex-basis: 400px;
+	flex-wrap: nowrap;
+	color: #999;
+}
+
+.icon-services {
+	float: left;
+	padding: 2px 30px 30px 30px;
+}
+
+.heading-services {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.description-services {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	display: block;
+	padding-left: 92px;
+}
+
+.services-list a:hover {
+	color: #656565;
+}

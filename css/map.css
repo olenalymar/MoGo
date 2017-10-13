@@ -1,0 +1,29 @@
+.map {
+	background: url("../images/map.jpg") no-repeat top center;
+	max-height: 200px;
+}
+
+.container--map {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.pin {
+	display: block;
+	margin:0 auto;
+}
+
+.map-heading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f38181;
+	text-align: center;
+	padding: 10px;
+}
+
+.map-heading::after {
+	display: block;
+	content: url("../images/redline.gif");
+}

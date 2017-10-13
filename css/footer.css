@@ -1,0 +1,11 @@
+.footer {
+	background-color: #f8f8f8;
+	padding: 20px 100px;
+}
+
+.copy {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #333;
+}
