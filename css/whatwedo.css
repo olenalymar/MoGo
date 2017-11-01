@@ -27,6 +27,7 @@
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .headline-arrow-up {
@@ -43,10 +44,14 @@
     background-color: #eeeeee;
 }
 
-.toggle {
-	/*display: none;
-    overflow: hidden;*/
-} 
+/*.toggle {
+	display: none;
+    overflow: hidden;
+} */
+
+.panel {
+	display: none;
+}
 
 .headline {
 	font-family: "Montserrat", sans-serif;
